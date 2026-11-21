@@ -6,6 +6,9 @@
     "plugins": ["expo-router", "expo-sqlite", "expo-secure-store", "expo-notifications", ["expo-location", { "locationWhenInUsePermission": "Usamos tu ubicación mientras registras un viaje para calcular distancia y velocidad." }], ["expo-image-picker", { "cameraPermission": "Usamos la cámara solo para adjuntar fotos de las facturas de mantenimiento.", "photosPermission": "Te permitimos elegir una foto para adjuntarla a un mantenimiento." }]],
     "experiments": { "typedRoutes": true },
     "ios": { "supportsTablet": true },
-    "android": { "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"] }
+    "android": {
+      "package": "com.ditterdavid.registrovehiculo",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    }
   }
 }

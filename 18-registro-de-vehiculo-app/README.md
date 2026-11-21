@@ -49,6 +49,13 @@ En **Inicio → Exportar bitácora**, genera un CSV UTF-8 con separador compatib
 4. Copia la URL HTTPS desplegada de la API a `.env` en la app móvil: `EXPO_PUBLIC_API_URL=https://<tu-api>.vercel.app`.
 5. Para instalar la app Android final, genera el paquete después de configurar esa URL; una URL local como `localhost` no sirve en otros teléfonos.
 
+## Compilaciones Android con EAS
+
+- Para instalar una versión de prueba directamente en un teléfono Android: `eas build --platform android --profile preview` (genera un APK de distribución interna).
+- Para publicar en Google Play: `eas build --platform android --profile production` (genera un AAB).
+- Los perfiles incluyen la URL pública de la API de producción. No requieren ni deben incluir las credenciales privadas de la cuenta de servicio Firebase.
+- El identificador Android configurado es `com.ditterdavid.registrovehiculo`; debe mantenerse igual en futuras actualizaciones de esta app.
+
 La ruta `/api/health` permite comprobar el despliegue. `/api/sync` requiere una sesión Firebase válida y almacena cada cuenta bajo su propio espacio de Firestore.
 
 ## Seguridad
