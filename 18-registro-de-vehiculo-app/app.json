@@ -9,6 +9,11 @@
     "android": {
       "package": "com.ditterdavid.registrovehiculo",
       "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f44eb3c5-f234-416e-af35-e435492a11df"
+      }
     }
   }
 }
