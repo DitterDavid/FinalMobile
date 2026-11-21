@@ -1,0 +1,10 @@
+{
+  "folders": [
+    { "name": "App móvil", "path": "18-registro-de-vehiculo-app" },
+    { "name": "API", "path": "18-registro-de-vehiculo-api" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.exclude": { "**/node_modules": true, "**/.next": true, "**/.expo": true }
+  }
+}

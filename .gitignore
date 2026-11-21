@@ -1,0 +1,29 @@
+# Dependencies and generated builds
+**/node_modules/
+**/.next/
+**/.expo/
+**/dist/
+**/out/
+**/coverage/
+**/web-build/
+**/*.tsbuildinfo
+**/.vercel/
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.jks
+**/*.keystore
+**/*.p8
+**/*.p12
+**/*.mobileprovision
+
+# Local databases and editor/OS artifacts
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+.DS_Store
+Thumbs.db
